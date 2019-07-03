@@ -3,7 +3,9 @@
 Check out Text compare.ipynb for the Jupyter Notebook where the program is hosted.
 
 Determines whether two texts were written by the same author using a Keras neural network with 15 inputs: 
+
 1: 12 (6x2) individual attributes (frequencies of periods, commas, unique words, apostrophes, words 7 letters or more, words 10 letters or more) 
+
 2: 3 shared attributes (percentage of shared words, shared two word phrases, and shared three word phrases
 
 Corpus is composed of four passages each from eight English-language prose authors from four continents, written over a period of 303 years.
